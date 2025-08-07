@@ -1,0 +1,16 @@
+[package]
+name = "helloworld"
+version = "1.0.0"
+authors = []
+
+[addresses]
+myaddr = "8a50794d3a12695708ba44440b82d2170b685c5e3eea7f97d2054337dd011f1f"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
